@@ -1,4 +1,4 @@
-# Altair API 余额查询服务
+# Altair-api-TokenTrace
 
 一键查询多种 AI 大模型 API 的余额与用量。
 
@@ -21,7 +21,7 @@
 
 ```bash
 cd /opt
-git clone https://github.com/你的GitHub用户名/Altairapi-Linux.git
+git clone https://github.com/altair-9527/Altair-api-TokenTrace.git
 ```
 
 > 💡 如果你的仓库是 Private (私有) 的，克隆时会提示输入你的 GitHub 用户名和 Token (或密码) 进行验证。
@@ -29,7 +29,7 @@ git clone https://github.com/你的GitHub用户名/Altairapi-Linux.git
 ### 2. 前台启动（调试用）
 
 ```bash
-cd /opt/Altairapi-Linux
+cd /opt/Altair-api-TokenTrace
 chmod +x start.sh
 ./start.sh
 ```
@@ -37,7 +37,7 @@ chmod +x start.sh
 ### 3. 后台启动（生产推荐）
 
 ```bash
-cd /opt/Altairapi-Linux
+cd /opt/Altair-api-TokenTrace
 chmod +x run_bg.sh
 ./run_bg.sh          # 启动
 ./run_bg.sh status   # 查看状态
@@ -70,7 +70,7 @@ sudo firewall-cmd --reload
 ## 目录结构
 
 ```
-Altairapi-Linux/
+Altair-api-TokenTrace/
 ├── start.sh          # 前台启动脚本
 ├── run_bg.sh         # 后台启动/停止脚本
 ├── requirements.txt  # Python 依赖
